@@ -2,7 +2,7 @@ import { fetchWeatherData } from './weatherService.js';
 import { updateUI } from './ui.js';
 
 // Replace {lat}, {lon}, and {API key} with actual coordinates and API key
-const baseURL = "https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}";
+const baseURL = "https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={API key}";
 
 // Fetch weather data
 fetchWeatherData(baseURL)
