@@ -60,7 +60,7 @@ $(document).ready(function(){
     // ******************************************* GET WEATHER API CALL ******************************************* //              
     
     // Created apiKey to call the OpenWeatherMap API
-    var apiKey = "1ff0f6823d723403dabe8415bdcb12e3";
+    var apiKey = "57d36821c5936c6955c5516d3686c9d0";
     
     // Current weather function
     function getWeather (city) {
@@ -129,7 +129,7 @@ $(document).ready(function(){
     function getUVindex(lat,long) {  
                  
         //Build the URL we need to get the UVI information
-        var queryURL = "https://api.openweathermap.org/data/2.5/onecall?" + "&lat=" + lat + "&lon=" + long + "&appid=" + apiKey;
+        var queryURL = "https://api.openweathermap.org/data/3.0/onecall?" + "&lat=" + lat + "&lon=" + long + "&appid=" + apiKey;
     
         // Here we run our AJAX call to the OpenWeatherMap API
         $.ajax({
@@ -154,5 +154,5 @@ $(document).ready(function(){
     
             });
         } 
-    getWeather("Los Angeles");
+    getWeather("");
     }); 
