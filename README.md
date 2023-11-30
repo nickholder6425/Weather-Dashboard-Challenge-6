@@ -1,2 +1,17 @@
 # Weather-Dashboard-Challenge-6
-A weather dashboard that uses server-side API's 
+
+## Discription
+
+A weather dashboard that uses server-side API's (OpenWeather) that allows the end user to see a 5-day weather outlook for a specific city.
+
+## Screenshot
+
+![Screenshot/Demo](./assets/images/06-server-side-apis-homework-demo.png)
+
+GitHub:
+
+URL:
+
+## Resource Used
+
+https://github.com/carmenobied/Serverside-APIs-Weather-Dashboard
