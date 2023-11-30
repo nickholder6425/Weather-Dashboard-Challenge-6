@@ -8,9 +8,9 @@ A weather dashboard that uses server-side API's (OpenWeather) that allows the en
 
 ![Screenshot/Demo](./assets/images/06-server-side-apis-homework-demo.png)
 
-GitHub:
+GitHub: https://github.com/nickholder6425/Weather-Dashboard-Challenge-6
 
-URL:
+URL:    
 
 ## Resource Used
 
