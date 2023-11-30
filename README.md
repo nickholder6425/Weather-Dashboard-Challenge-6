@@ -2,7 +2,7 @@
 
 ## Discription
 
-A weather dashboard that uses server-side API's (OpenWeather) that allows the end user to see a 5-day weather outlook for a specific city.
+Built a weather dashboard using OpenWeather's API that allows the end user to see a 5-day weather outlook for a specific city.
 
 ## Screenshot
 
